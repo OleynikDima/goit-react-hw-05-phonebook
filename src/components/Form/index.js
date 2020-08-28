@@ -40,7 +40,7 @@ render(){
 return (
     <div className={styles.container}>
         <div className={styles.header}>
-            <CSSTransition  in={true} timeout={250} appear={true} classNames="titleIn" unmountOnExit>
+            <CSSTransition  in={true} timeout={500} appear={true} classNames="titleIn" unmountOnExit>
                     <h2 className={styles.title}> Phonebook </h2>
             </CSSTransition>
 

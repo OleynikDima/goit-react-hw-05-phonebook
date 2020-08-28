@@ -61,11 +61,7 @@ export default class App extends Component {
             }
         })        
     }
-
-    // delayAlert = () => {
-    //     const {showAlert}=this.state
-    //     setTimeout(this.setState({isShow:!isShow}), 2000)
-    // }
+    
     render (){
         const {filter, contacts} = this.state;
         const visible = this.updateInfo();

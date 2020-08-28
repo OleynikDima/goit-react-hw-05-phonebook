@@ -2,7 +2,7 @@ import React from 'react'
 import style from './Alert.module.css'
 
 
-const Alert = ({text, onClick}) => {
+const Alert = ({text}) => {
     return (
            <div className={style.container}>
                 <span className={style.text}> {text} </span>
